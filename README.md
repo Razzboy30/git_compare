@@ -48,26 +48,36 @@ cd git_compare
 
 2. Install dependencies for both client and server
 For the client:
+```bash
   cd client
   npm install
+```
 
 For the server:
+```bash
   cd server
   npm install
+```
   
 3. Set up environment variables
 Create a .env file in the server directory with the following variables:
+```.env
 GITHUB_TOKEN=your_github_personal_access_token
 PORT=5000
+```
 
-4. Start the application
+5. Start the application
 Start the server:
+```bash
    cd server
    npm start
+```
 
 Start the client (in a new terminal):
+```bash
    cd client
    npm run dev
+```
 
 ## Usage
 1. Navigate to http://localhost:5173 in your web browser
