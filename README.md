@@ -46,7 +46,7 @@ git clone https://github.com/yourusername/git_compare.git
 cd git_compare
 ```
 
-2. Install dependencies for both client and server
+2. Install dependencies for both client and server <br />
 For the client:
 ```bash
   cd client
@@ -59,14 +59,14 @@ For the server:
   npm install
 ```
   
-3. Set up environment variables
+3. Set up environment variables <br />
 Create a .env file in the server directory with the following variables:
 ```.env
 GITHUB_TOKEN=your_github_personal_access_token
 PORT=5000
 ```
 
-5. Start the application
+5. Start the application <br />
 Start the server:
 ```bash
    cd server
